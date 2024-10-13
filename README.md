@@ -14,4 +14,4 @@
 
 ## Установка и запуск
 ###Склонировать репозиторий:
-   git clone https://github.com/ТВОЙ_ГИТХАБ_ЮЗЕРНЕЙМ/Voikin.git
+   git clone https://github.com/Kvazzzzar/Voikin.git
