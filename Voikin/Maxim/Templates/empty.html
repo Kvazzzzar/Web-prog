@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 48px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        a {
+            color: #008CBA;
+            text-decoration: none;
+            font-size: 24px;
+            padding: 10px 20px;
+            border: 2px solid #008CBA;
+            border-radius: 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            margin: 10px;
+        }
+
+        a:hover {
+            background-color: #008CBA;
+            color: white;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Добро пожаловать на главную страницу!</h1>
+    <nav>
+        <a href="http://127.0.0.1:8080/name/">Имя и фамилия</a>
+        <a href="http://127.0.0.1:8080/groupe/">Группа</a>
+        <a href="http://127.0.0.1:8080/age/">Возраст</a>
+        <a href="http://127.0.0.1:8080/common/">Вся информация</a>
+    </nav>
+</body>
+</html>
